@@ -9,8 +9,8 @@ from sklearn.metrics import mean_squared_error
 def rmse(predictions, targets):
     return np.sqrt(((predictions - targets) ** 2).mean())
 
-f = open("D:\\USC_Aditya\\Internet&Cloud-EE542\\Project\\twitter code\\newtest\\input.csv")
-f2 = open("D:\\USC_Aditya\\Internet&Cloud-EE542\\Project\\twitter code\\newtest\\test_input.csv")
+f = open("\\Project\\twitter code\\newtest\\input.csv")
+f2 = open("\\Project\\twitter code\\newtest\\test_input.csv")
 
 data = np.loadtxt(f,delimiter=",")
 data2 = np.loadtxt(f2,delimiter=",")
